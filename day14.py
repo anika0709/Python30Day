@@ -118,5 +118,25 @@ def enter_choice():
 enter_choice()
 
 
+#lst1, lst2 = zip(*zipped_list)
+# should give you the unzipped list.
+
+# *zipped_list unpacks the zipped_list object. it then passes all the tuples from the zipped_list object to zip, which just packs them back up as they were when you passed them in.
+
+# so if:
+
+# a = [1,2,3]
+# b = [4,5,6]
+# then zipped_list = zip(a,b) gives you:
+
+# [(1,4), (2,5), (3,6)]
+# and *zipped_list gives you back
+
+# (1,4), (2,5), (3,6)
+# zipping that with zip(*zipped_list) gives you back the two collections:
+
+# [(1, 2, 3), (4, 5, 6)]
+
+
         
 

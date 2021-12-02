@@ -16,7 +16,7 @@ print("Number of months in 27 years", year_days*27)
 import math
 
 def circle_area(radius):
-	area = math.pi*radius*radius
+	area = math.pi*radius**2
 	return area
 
 print("The area is", circle_area(5))
